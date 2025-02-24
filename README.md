@@ -19,3 +19,28 @@ assessments. Therefore, there is a growing need for innovative solutions that ca
 
 # Aim of the project
 The aim of this project is to develop a machine learning model to predict the likelihood of diabetes in individuals using medical data
+
+# Methodology
+1. Dataset Collection and Preparation
+Dataset was retrieved from Kaggle and provided for open access. 
+Irrelevant columns were removed, including AnyHealthcare, 
+NoDocbcCost, GenHlth, PhysHlth, Education, and Income. After cleaning, the dataset was 
+reviewed for its shape (rows and columns), with the first five rows of the dataset.
+
+2. Statistical Summary and Null value check 
+No null values found, further examine on the presence of 
+any duplicates, were considered. 121509 duplicate records were identified and were removed 
+to ensure data consistency and accuracy.
+
+3. Outlier Detection
+Boxplots were used to identify potential outliers in the dataset. 
+The outliers were detected only in BMI and in MentHlth, where the outliers in the BMI column 
+were removed based on the Interquartile Range (IQR) method. The outliers of the MentHlth were ignored.
+
+4. Data Splitting
+The data was split into 80/20 split.
+
+5.Class balancing and feature scaling 
+To address the class imbalance in the target variable (Outcome), SMOTE (Synthetic Minority 
+Over-sampling Technique), leaving the testing data unaffected. 
+
