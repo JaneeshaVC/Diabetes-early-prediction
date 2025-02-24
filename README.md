@@ -40,7 +40,7 @@ were removed based on the Interquartile Range (IQR) method. The outliers of the 
 4. Data Splitting
 The data was split into 80/20 split.
 
-5.Class balancing and feature scaling 
+5. Class balancing and feature scaling 
 To address the class imbalance in the target variable (Outcome), SMOTE (Synthetic Minority 
 Over-sampling Technique), leaving the testing data unaffected. 
 
