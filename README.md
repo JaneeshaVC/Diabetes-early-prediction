@@ -1,4 +1,4 @@
-# Diabetes-early-prediction
+#Diabetes-early-prediction
 Diabetes being a globally affecting non communicable disorder, is better if predicted early. 
 Diabetes prediction using machine learning has become increasingly significant for early 
 detection and prevention. This study evaluates various machine learning models, including 
